@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>❄️ คุณได้รับการ์ด!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bk"></div>
+<div class="dots" id="dots"><b></b><b></b><b></b><b></b><b></b></div>
+
+<section class="step" id="s0">
+  <div class="flake">❄️</div>
+  <h1>ส่งหิมะมาให้</h1>
+  <p class="hint">~ ลองเปิดดูสิ ~</p>
+  <button class="btn" id="go">🎁 เปิดเลย..</button>
+</section>
+
+<section class="step" id="s1">
+  <div class="gift" id="gift">
+    <div class="tag" id="tag"></div>
+    <div class="glid"><div class="bow"><i class="l"></i><i class="r"></i><i class="k"></i></div></div>
+    <div class="gbox"></div>
+  </div>
+  <p class="hint" style="margin-top:34px">✨ แตะเพื่อแกะของขวัญ</p>
+</section>
+
+<section class="step" id="s2">
+  <div class="globe-wrap">
+    <div class="globe" id="globe">
+      <div class="hill"></div>
+      <div class="scene">
+        <span style="left:50%;top:60%">🏠</span>
+        <span style="left:20%;top:68%;font-size:.45em">🌲</span>
+        <span style="left:82%;top:70%;font-size:.4em">🌲</span>
+      </div>
+      <canvas id="snow"></canvas>
+      <canvas id="fog"></canvas>
+      <div class="fogtxt" id="fogtxt">~ ลองเช็ดกระจกดู ~</div>
+    </div>
+    <div class="plaque"><p id="plaque"></p><small id="est"></small></div>
+  </div>
+  <p class="hint" id="ghint">ใช้นิ้วลากเช็ดกระจก</p>
+  <button class="btn" id="next">เปิดจดหมาย ✉️</button>
+</section>
+
+<section class="step" id="s3">
+  <div class="paper" id="paper"></div>
+  <button class="again" id="again">เล่นอีกครั้ง</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
